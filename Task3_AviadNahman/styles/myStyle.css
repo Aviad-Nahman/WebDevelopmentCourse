@@ -1,0 +1,145 @@
+body 
+{
+    direction:rtl;
+    background-color:black;
+}
+
+#container{
+
+    width:960px;
+    margin:0 auto;
+}
+
+
+nav{
+    width: 960px; 
+    list-style:none;
+    height:45px;
+}
+
+nav ul li{
+    display:inline-block;
+    float:right;
+    width: 20%; 
+}
+
+nav ul li:hover a{
+    background-color:gainsboro;
+    color:black;
+    font-weight: bold;
+    
+}
+
+nav ul li a{
+    display: block;
+    background-color: black; 
+    color: white; 
+    height: 30px; 
+    padding-top: 10px; 
+    text-decoration: none; 
+    text-align: center;
+
+}
+
+#selected {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#page{
+
+   
+    font-size: medium;
+    color:white;
+    
+}
+
+#onetitle{
+
+    color:white;
+    font-size:50px;
+    margin:20px 380px 50px 20px;
+}
+
+#twotitle{
+
+    margin-top:50px;
+    margin-bottom:20px;
+    text-align:right;
+    font-size:20px;
+    
+}
+
+p{
+
+    padding-left:224px;
+    margin-bottom: 15px;
+    
+}
+
+
+#myIDF{
+
+    font-size: medium;
+    color:white;
+}
+
+#myIDF:hover{
+
+    font-size: medium;
+    color:#3b9a10;
+   
+}
+
+#facebook{
+
+    font-size:35px;
+    margin-top:50px;
+    margin-bottom:80px;
+    text-align:center;
+    padding-right: 95px;
+    
+}
+
+#face{
+
+    width:80px;
+    height:80px;
+    margin-right:50%;
+}
+
+#face:hover{
+
+    width:80px;
+    height:80px;
+    margin-right:50%;
+    background-color:white;
+}
+
+#mezah{
+
+    width: 170px;
+    height: 240px;
+    margin-top: 70px;
+    margin-right: 630px;
+}
+
+#work{
+
+    width: 220px;
+    height: 75px;
+    margin-right:510px;
+}
+
+#aviad{
+
+    width: 815px;
+    height: 470px;
+    padding-top: 50px;
+    padding-right: 120px;
+}
+
+
+
+
