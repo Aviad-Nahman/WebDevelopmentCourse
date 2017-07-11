@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>דף נחיתה- הפקולטה לטכנולוגיות למידה</title>
+    <meta name="description" content="דף זה מציג את התואר הראשון לטכנולויות למידה. התואר נלמד במכללת HIT ומאפשר מילוי טופס ליצירת קשר עם המתעניינים בתואר ראשון בטכנולוגיות למידה" />
+    <meta name="keywords" content="צור קשר, פרטים, תואר ראשון, טכנולוגיות למידה, טכנולוגיה, HIT" />
+    <meta name="author" content="אביעד נחמן, Aviad Nahman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <div id="scren">
+            <articel>
+                <header>
+                    <h1> תואר B.A בטכנולוגיות למידה</h1>
+                    <p id="sisma"> כי על איכות, לא מתפשרים !</p>
+                </header>
+                <section>
+                    <h2> תואר ראשון</h2>
+                    <p>
+                        תואר ראשון B.A בטכנולוגיות למידה, נועד להכשיר מקצוענים שישתלבו בארגונים במגזר העסקי והציבורי ויובילו את תחום הלמידה והמידע בעידן הדיגיטאלי.
+                    </p>
+                    <p>
+                        לפרטים נוספים היכנסו לאתר שלנו
+                        <a href="http://www.hit.ac.il/telem/B.A" class="website"> מכללת HIT חולון</a>
+                    </p>
+
+                </section>
+
+                <section>
+                    <h2> תואר שני</h2>
+
+                    <p>
+                        התואר השני בטכנולוגיות למידה מכשיר מומחים מקצועניים בטכנולוגיות למידה. התואר נועד להקנות ידע אקדמי מתקדם וכישורים יישומיים עדכניים הנדרשים בעולם הלמידה הארגונית. התואר השני מעשיר את ארגז הכלים של מי שעוסק בפועל בהדרכה ארגונית ובישומי טכנולוגיות למידה.
+                    </p>
+                    <p>
+                        לפרטים נוספים היכנסו לאתר שלנו
+                        <a href="http://www.hit.ac.il/telem/M.A" class="website"> מכללת HIT חולון</a>
+                    </p>
+
+                </section>
+
+                <form>
+
+                    <h2>הירשמו עכשיו</h2>
+                    <input type="hidden" id="myEmail" name="name" value="Aviadnah1@gmail.com">
+
+
+                    <label for="FullName">
+                        שם פרטי:
+                        <input type="text" id="FullName" placeholder="הכנס את שמך המלא" />
+                    </label>
+
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" checked /> זכר
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" /> נקבה
+                    </label>
+
+                    <label for="mySelect">
+                        בחר תואר
+                        <select id="mySelect">
+                            <option value="1">תואר ראשון</option>
+                            <option value="2" selected>תואר שני</option>
+                        </select>
+                    </label>
+
+
+                    <label for="myMS">
+                        הודעה כאן:
+                        <textarea id="myMS"></textarea>
+                    </label>
+
+
+                    <label for="cb1">
+                        <input type="checkbox" id="cb1" checked /> מוכן לקבל דואר פירסומי
+                    </label>
+
+
+                    <input type="submit" id="Send" value="שלח">
+
+                    <div id="feedback"></div>
+
+                </form>
+
+
+            </articel>
+
+        </div>
+        
+    </div>
+</body>
+</html>
